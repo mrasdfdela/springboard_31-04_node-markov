@@ -51,7 +51,7 @@ class MarkovMachine {
         idx = this.randIdxFromArr(currWordBank);
       }
     }
-    return wordChainArr;
+    return wordChainArr.join(" ");
   }
 
   randIdxFromArr(arr){
